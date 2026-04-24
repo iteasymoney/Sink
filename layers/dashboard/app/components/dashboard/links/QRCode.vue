@@ -10,8 +10,8 @@ const props = withDefaults(defineProps<{
 })
 const color = ref('#000000')
 const options = {
-  width: 1500,
-  height: 1500,
+  width: 500,
+  height: 500,
   data: props.data,
   type: 'svg' as const,
   margin: 10,
